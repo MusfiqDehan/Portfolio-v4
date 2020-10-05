@@ -1,5 +1,10 @@
 body {
     margin: 0;
+    background-color: #fcdada;
+}
+
+h1 {
+    color: #f56a79;
 }
 
 hr {
