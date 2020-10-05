@@ -1,10 +1,9 @@
 body {
     margin: 0;
-    padding: 0;
 }
 
 hr {
     border-style: none;
     width: 10%;
-    border-top: 5px dotted;
+    border-top: 5px dotted gray;
 }
