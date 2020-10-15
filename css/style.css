@@ -1,13 +1,62 @@
 body {
     margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+div.top-container {
+    background-color: #ffefa0;
+    position: relative;
+    padding-top: 50px;
 }
 
 h1 {
-    color: #f56a79;
+    margin: 0;
+    font-family: 'Sacramento', cursive;
+    /* font-family: 'Montserrat', sans-serif; */
 }
 
 hr {
     border-style: none;
     width: 10%;
     border-top: 5px dotted gray;
+}
+
+p .pro {
+    text-decoration: underline;
+}
+
+.cloud-top {
+    width: 15%;
+}
+
+.sun {
+    width: 15%;
+    position: absolute;
+    right: 30px;
+    top: 20px;
+}
+
+.cloud-bottom-left {
+    width: 15%;
+    position: absolute;
+    bottom: 360px;
+}
+
+.tree-left {
+    width: 20%;
+}
+
+.house {
+    width: 35%;
+}
+
+.cloud-bottom-right {
+    width: 15%;
+    position: absolute;
+    bottom: 360px;
+}
+
+.tree-right {
+    width: 20%;
 }
