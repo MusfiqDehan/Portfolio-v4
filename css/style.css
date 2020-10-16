@@ -4,6 +4,10 @@ body {
     font-family: 'Merriweather', serif;
 }
 
+p {
+    margin: 0;
+}
+
 div.top-container {
     background-color: #ffefa0;
     position: relative;
@@ -13,7 +17,25 @@ div.top-container {
 h1 {
     margin: 0;
     font-family: 'Sacramento', cursive;
-    /* font-family: 'Montserrat', sans-serif; */
+    font-size: 5.625rem; 
+    color: #ff9642;
+    /* 16px = 1em = 1rem = 100% */
+}
+
+.subtitle {
+    font-size: 1.5rem;
+    color: #ff9642;
+    font-weight: normal;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 2rem;
+    color: #ff9642;
+}
+
+h3 {
+    color: #f6830f;
 }
 
 hr {
@@ -59,4 +81,12 @@ p .pro {
 
 .tree-right {
     width: 20%;
+}
+
+a {
+    color: #f6830f;
+}
+
+.bottom-container {
+    background-color: #ffefa0;
 }
