@@ -14,10 +14,11 @@ div.top-container {
 }
 
 h1 {
-    margin: 0;
+    margin: 0 auto;
     font-family: 'Sacramento', cursive;
     font-size: 5.625rem; 
     color: #ff9642;
+    width: 40%;
     /* 16px = 1em = 1rem = 100% */
 }
 
@@ -41,6 +42,21 @@ hr {
     border-style: none;
     width: 10%;
     border-top: 5px dotted gray;
+}
+
+.profile-pic {
+    border-radius: 50%;
+}
+
+#about {
+    width: 30%;
+    line-height: 2;
+    margin: auto;
+    padding: 50px;
+}
+
+.hi {
+    font-size: 25px;
 }
 
 p .pro {
@@ -69,7 +85,7 @@ p .pro {
 }
 
 .house {
-    width: 35%;
+    width: 30%;
 }
 
 .cloud-bottom-right {
@@ -86,8 +102,8 @@ a {
     color: #f6830f;
 }
 
-.bottom-container {
-    background-color: #ffefa0;
+#interests {
+    padding: 50px 0;
 }
 
 .interest-row {
@@ -134,4 +150,44 @@ a {
     float: left;
     margin-top: 20px;
     margin-right: 20px;
+}
+
+#contact {
+    padding: 50px 0;
+    width: 30%;
+    margin: auto;
+    line-height: 2;
+}
+
+.btn {
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #ff9642;
+    border-radius: 25px;
+    border: none;
+    font-size: 20px;
+}
+
+.btn:hover {
+    color: #fff;
+    cursor: pointer;
+}
+
+.bottom-container {
+    background-color: #ffefa0;
+    padding: 30px 0;
+}
+
+.credit {
+    padding-top: 20px;
+    font-size: 12px;
+}
+
+.footer-link {
+    text-decoration: none;
+    margin: auto 20px;
+}
+
+.footer-link:hover {
+    color: #000;
 }
