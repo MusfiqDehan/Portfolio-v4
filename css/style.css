@@ -11,7 +11,6 @@ p {
 div.top-container {
     background-color: #ffefa0;
     position: relative;
-    padding-top: 50px;
 }
 
 h1 {
@@ -89,4 +88,50 @@ a {
 
 .bottom-container {
     background-color: #ffefa0;
+}
+
+.interest-row {
+    width: 50%;
+    margin: 50px auto;
+    background-color: #ffefa0;
+    padding: 25px;
+    border-radius: 25px;
+}
+
+.interest-description-programming {
+    text-align: left;
+}
+
+.interest-description-web {
+    text-align: right;
+}
+
+.interest-description-read {
+    text-align: left;
+}
+
+#interests .interest-row p {
+    line-height: 2;
+}
+
+#interests .interest-row img {
+    width: 25%;
+} 
+
+.programming {
+    float: left;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.webdev {
+    float: right;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.read {
+    float: left;
+    margin-top: 20px;
+    margin-right: 20px;
 }
