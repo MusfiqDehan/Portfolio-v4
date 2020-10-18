@@ -8,9 +8,30 @@ p {
     margin: 0;
 }
 
+header {
+    background-color: #ffefa0;
+    font-size: 18px;
+    width: 100%;
+    min-height: 50px;
+    position: fixed;
+    z-index: 3;
+}
+
+header nav ul a {
+    text-decoration: none;
+    color: #f6830f;
+}
+
+header nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 40px;
+}
+
 div.top-container {
     background-color: #ffefa0;
     position: relative;
+    padding-top: 60px;
 }
 
 h1 {
@@ -18,7 +39,6 @@ h1 {
     font-family: 'Sacramento', cursive;
     font-size: 5.625rem; 
     color: #ff9642;
-    width: 40%;
     /* 16px = 1em = 1rem = 100% */
 }
 
@@ -71,13 +91,14 @@ p .pro {
     width: 10%;
     position: absolute;
     right: 30px;
-    top: 20px;
+    top: 50px;
 }
 
 .cloud-bottom-left {
     width: 10%;
     position: absolute;
-    bottom: 360px;
+    bottom: 400px;
+    left: 130px;
 }
 
 .tree-left {
@@ -86,21 +107,17 @@ p .pro {
 
 .house {
     width: 30%;
-    margin: 0 100px;
 }
 
 .cloud-bottom-right {
     width: 10%;
     position: absolute;
-    bottom: 360px;
+    bottom: 400px;
+    right: 120px;
 }
 
 .tree-right {
     width: 15%;
-}
-
-a {
-    color: #f6830f;
 }
 
 #interests {
@@ -113,6 +130,7 @@ a {
     background-color: #ffefa0;
     padding: 25px;
     border-radius: 25px;
+    box-shadow: #f6830f 2px 2px 2px 2px;
 }
 
 .interest-description-programming {
@@ -177,6 +195,7 @@ a {
 .bottom-container {
     background-color: #ffefa0;
     padding: 30px 0;
+    width: 100%;
 }
 
 .credit {
@@ -185,6 +204,7 @@ a {
 }
 
 .footer-link {
+    color: #f6830f;
     text-decoration: none;
     margin: auto 20px;
 }
@@ -192,3 +212,57 @@ a {
 .footer-link:hover {
     color: #000;
 }
+
+@media(max-width:560px) {
+    h1 {
+        font-size: 3rem;        
+    }
+    
+    div.top-container {
+        padding-top: 100px;        
+    }
+    
+    .subtitle {
+        font-size: 15px;
+        padding-bottom: 20px;
+    }
+    
+    .sun {
+        position: relative;
+        left: 136px;
+        top: 10px;
+    }
+
+    .cloud-bottom-left {
+        position: relative;
+        top: -110px;
+        left: 10px;
+    }
+
+    .cloud-bottom-right {
+        position: relative;
+        top: -160px;
+        left: 60px;
+    }
+
+    #about {
+        width: 65%;
+    }
+
+    .interest-row {
+        width: 75%;
+    }
+
+    #contact {
+        width: 65%;
+    }
+
+    header {
+        border-bottom:2px solid #f6830f;
+    }
+
+    header nav ul li {
+        display: block;
+    }
+}
+
