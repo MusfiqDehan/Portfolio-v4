@@ -130,7 +130,7 @@ p .pro {
     background-color: #ffefa0;
     padding: 25px;
     border-radius: 25px;
-    box-shadow: #f6830f 2px 2px 2px 2px;
+    box-shadow: #f6830f 2px 2--px 2px 2px, 2px 2px 2px 2px;
 }
 
 .interest-description-programming {
